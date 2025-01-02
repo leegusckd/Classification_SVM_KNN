@@ -6,7 +6,7 @@ This project is an analysis of the Credit Approval Data Set from the UCI Machine
 
 The goal is to build a predictive classification model that will determine if a credit card application will be approved or not based on various predictors. The first part of the analysis will use a Support Vector Machine (SVM) classifier by implementing the `ksvm` function in the R `kernlab` package. This function will produce a classification equation that can be used to predict whether or not a credit card application will be approved. We will then evaluate the performance of this classifier equation using the entire data set. 
 
-We will then repeat the process using another method called the k-Nearest Neighbor (k-NN) algorithm and compare its performance to the SVM model. 
+We will repeat the process using another method called the k-Nearest Neighbor (k-NN) algorithm using the function `kknn` contained in the R `kknn` package. We will then compare its performance to the SVM model. 
 
 #### Support Vector Machine (SVM) Analysis
 
